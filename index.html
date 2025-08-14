@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>⚠️ GG YOU'VE BEEN HACKED ⚠️</title>
+    <style>
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            margin: 0;
+            padding: 20vh 0;
+        }
+        h1 {
+            font-size: 4rem;
+            text-shadow: 0 0 10px #0f0;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            25% { transform: translate(-5px, 5px); }
+            50% { transform: translate(5px, -5px); }
+            75% { transform: translate(-5px, -5px); }
+            100% { transform: translate(0); }
+        }
+        .blink {
+            animation: blink 0.7s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>GG YOU'VE BEEN HACKED</h1>
+    <p class="blink">SYSTEM INTRUSION DETECTED</p>
+    <p>Data transfer in progress...</p>
+    <p><small>(Just kidding! Close this tab.)</small></p>
+</body>
+</html>
